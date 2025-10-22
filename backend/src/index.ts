@@ -1,11 +1,10 @@
+import 'dotenv/config'; // <-- Questo carica subito
+
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import dotenv from 'dotenv';
 import cardsRouter from './routes/cards';
-
-dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
