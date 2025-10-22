@@ -1,0 +1,8 @@
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# Node modules (già ignorato dalla root ma aggiunto per sicurezza)
+node_modules/
